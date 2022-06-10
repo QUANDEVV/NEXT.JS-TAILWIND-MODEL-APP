@@ -23,7 +23,7 @@ const MenuItems = ({ isMobile, active, setActive, setIsOpen }) => {
 
   return (
     <ul className={`list-none flexCenter flex-row ${isMobile && 'flex-col h-full'}`}>
-      {['Explore NFTs', 'Listed NFTs', 'My NFTs'].map((item, i) => (
+      {['Top Models'].map((item, i) => (
         <li
           key={i}
           onClick={() => {
@@ -49,15 +49,7 @@ const ButtonGroup = ({ setActive, router }) => {
 
   return hasConnected ? (
     <div className="flexCenter">
-      <Button
-        btnName="Create"
-        btnType="primary"
-        classStyles="mx-2 rounded-xl"
-        handleClick={() => {
-          setActive('');
-          router.push('/create-nft');
-        }}
-      />
+     
     </div>
   ) : (
     <Button
@@ -71,7 +63,7 @@ const ButtonGroup = ({ setActive, router }) => {
 const checkActive = (active, setActive, router) => {
   switch (router.pathname) {
     case '/':
-      if (active !== 'Explore NFTs') setActive('Explore NFTs');
+      if (active !== 'Top Models') setActive('Top Models');
       break;
     case '/created-nfts':
       if (active !== 'Listed NFTs') setActive('Listed NFTs');
@@ -89,7 +81,7 @@ const checkActive = (active, setActive, router) => {
 
 const Navbar = () => {
   const { theme, setTheme } = useTheme();
-  const [active, setActive] = useState('Explore NFTs');
+  const [active, setActive] = useState('Top Models');
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
 
@@ -116,7 +108,7 @@ const Navbar = () => {
         <Link href="/">
           <div className="flexCenter md:hidden cursor-pointer" onClick={() => setActive('Explore NFTs')}>
             <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="logo" />
-            <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">CryptoKet</p>
+            <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">MODEL FANS</p>
           </div>
         </Link>
         <Link href="/">
@@ -128,6 +120,7 @@ const Navbar = () => {
             }}
           >
             <Image src={images.logo02} objectFit="contain" width={32} height={32} alt="logo" />
+            <p className=" dark:text-white text-nft-black-1 font-semibold text-lg ml-1">MODEL FANS</p>
           </div>
         </Link>
       </div>
