@@ -64,8 +64,8 @@ const Home = () => {
 
         <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.puiyi }
             layout="fill"
@@ -93,8 +93,8 @@ const Home = () => {
 
 <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.madeli }
             layout="fill"
@@ -120,8 +120,8 @@ const Home = () => {
 
 <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.ivanka }
             layout="fill"
@@ -148,8 +148,8 @@ const Home = () => {
 
 <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.kocha}
             layout="fill"
@@ -177,8 +177,8 @@ const Home = () => {
 
 <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.christin }
             layout="fill"
@@ -203,35 +203,12 @@ const Home = () => {
 </Link>
    
 
-<Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-3xl flex flex-col p-4 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-40 h-40 minlg:w-28 minlg:h-28">
-          <Image
-            src={images.lenke }
-            layout="fill"
-            objectFit="cover"
-            alt="creator"
-            className="rounded-lg"
-          />
-          <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
-            <Image
-              src={images.tick}
-              layout="fill"
-              objectFit="contain"
-              alt="tick"
-            />
-          </div>
-        </div>
-    </div>
-    </div>
-</Link>
 
 
 <Link  href='klo'>
 <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4">
-      <div className="my-0 flex justify-center">
-        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
+      <div className="my-4 flex justify-center">
+        <div className="relative w-44 h-44 minlg:w-28 minlg:h-28">
           <Image
             src={images.lenke }
             layout="fill"
