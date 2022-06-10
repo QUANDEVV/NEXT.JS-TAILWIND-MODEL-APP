@@ -200,7 +200,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-full"
+            className="rounded-lg"
           />
           <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
             <Image
@@ -217,15 +217,16 @@ const Home = () => {
 
 
 <Link  href='klo'>
-<div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-3xl flex flex-col p-4 m-4">
-      <div className="my-2 flex justify-center">
-        <div className="relative w-40 h-40 minlg:w-28 minlg:h-28">
+{/* <div className="min-w-190 minlg:min-w-240 dark:bg-nft-black-3 bg-white border dark:border-nft-black-3 border-nft-gray-1 rounded-2xl flex flex-col p-0 m-4"> */}
+      <div className="my-4 flex justify-center">
+        <div className="relative w-52 h-52 minlg:w-28 minlg:h-28">
           <Image
             src={images.lenke }
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-full"
+            className="rounded-xl"
+        
           />
           <div className="absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-0 -right-0">
             <Image
@@ -237,7 +238,7 @@ const Home = () => {
           </div>
         </div>
     </div>
-    </div>
+    {/* </div> */}
 </Link>
 
   
