@@ -70,7 +70,7 @@ const MyNFTs = () => {
 
       <div className="relative flex-1 max-w-full flex mt-0" ref={parentRef}>
                 <div className="flex flex-row w-max overflow-x-scroll no-scrollbar select-none" ref={scrollRef}>
-                  {[1,6, 7, 8, 9, 10].map((i) => (
+                  {[1,2,3,4,5,6,7].map((i) => (
                     <NFTCard
                       key={`creator-${i}`}
                       rank={i}

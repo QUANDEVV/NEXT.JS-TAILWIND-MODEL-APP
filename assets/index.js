@@ -29,9 +29,9 @@ import creator4 from './creator4.png';
 import creator5 from './creator5.png';
 import creator6 from './creator6.png';
 import creator7 from './creator7.png';
-import creator8 from './creator8.png';
-import creator9 from './creator9.png';
-import creator10 from './creator10.jpg';
+// import creator8 from './creator8.png';
+// import creator9 from './creator9.png';
+// import creator10 from './creator10.jpg';
 import right from './right.png';
 import left from './left.png';
 import headerbg from './headerbg.png';
@@ -83,9 +83,6 @@ export default {
   creator5,
   creator6,
   creator7,
-  creator8,
-  creator9,
-  creator10,
   right,
   left,
   headerbg,
