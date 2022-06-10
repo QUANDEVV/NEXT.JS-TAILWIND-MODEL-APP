@@ -55,7 +55,7 @@ const MyNFTs = () => {
         <Banner
           name="Your Daily Dose"
           childStyles="text-center mb-1"
-          parentStyle="h-40 justify-center"
+          parentStyle="h-20 justify-center"
         />
         <div className="flexCenter flex-col -mt-20 z-0">
           <div className="flexCenter w-40 h-40 sm:w-36 sm:h-36 p-1 bg-nft-black-2 rounded-full">
