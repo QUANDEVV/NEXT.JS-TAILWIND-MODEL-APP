@@ -37,7 +37,19 @@ import left from './left.png';
 import headerbg from './headerbg.png';
 import loader from './loader.gif';
 import arrow from './arrow.png';
-import lenke from './lenke.png'
+import lenke from './lenke.png';
+import ivanka from './ivanka.png';
+import kocha from './kocha.png';
+import puiyi from './puiyi.png';
+import madeli from './madeli.png';
+import christin from './christin.png';
+
+
+
+
+
+
+
 
 export default {
   heartOutline,
@@ -79,5 +91,10 @@ export default {
   headerbg,
   loader,
   arrow,
-  lenke
+  lenke,
+  ivanka,
+  kocha,
+  puiyi,
+  madeli,
+  christin,
 };
