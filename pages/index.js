@@ -71,7 +71,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
@@ -100,7 +100,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
@@ -127,7 +127,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
@@ -155,7 +155,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
@@ -184,7 +184,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
@@ -214,7 +214,7 @@ const Home = () => {
             layout="fill"
             objectFit="cover"
             alt="creator"
-            className="rounded-xl"
+            className="rounded-2xl"
         
           />
           
